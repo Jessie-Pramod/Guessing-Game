@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.html{
+    font-size: 62.5%;
+}
+.title{
+    font-size: 75px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.div-grid {
+    margin : 75px 0px 0px 400px;
+    position: absolute;
+    height: 45%;
+    width: 40%;
+    border: 5px solid black;
+    padding: 50px;
+
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+input   {
+    margin: 20px 10px 10px 0;
+    padding: 10px;
+}
+
+button  {
+    margin: 20px 10px 10px 0px;
+    padding: 10px;
+    background-color: rgb(162, 245, 190);
+}
+
+.results-div-grid{
+    margin : 115px 0px 0px 1000px;
+    position: absolute;
+    height: 35%;
+    width: 20%;
+    border: 5px solid black;
+    padding: 30px;
+    border-radius: 10%;
+}
+
+}
+
+@media screen and (max-device-width: 640px) {
+.title{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.div-grid {
+    margin : 10px 0px 0px 60px;
+    position: absolute;
+    height: 45%;
+    width: 80%;
+    border: 5px solid black;
+    padding: 50px;
+
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+input   {
+    margin: 20px 10px 10px 0;
+    padding: 10px;
+}
+
+button  {
+    margin: 20px 10px 10px 0px;
+    padding: 10px;
+    background-color: rgb(162, 245, 190);
+}
+
+.results-div-grid{
+    margin : 330px 0px 0px 90px;
+    position: absolute;
+    height: 30%;
+    width: 60%;
+    border: 5px solid black;
+    padding: 30px;
+    border-radius: 10%;
+}
+}

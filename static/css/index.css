@@ -62,11 +62,11 @@ button  {
     font-size: xx-large;
     text-align: center;
     color: rgb(0, 0, 0);
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .div-grid {
-    margin : 10px 0px 0px 60px;
+    margin : 10px 0px 0px 30px;
     position: absolute;
     height: 45%;
     width: 80%;
@@ -91,10 +91,10 @@ button  {
 }
 
 .results-div-grid{
-    margin : 330px 0px 0px 90px;
+    margin : 330px 0px 0px 60px;
     position: absolute;
-    height: 30%;
-    width: 60%;
+    height: 35%;
+    width: 70%;
     border: 5px solid black;
     padding: 30px;
     border-radius: 10%;
